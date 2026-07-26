@@ -14,14 +14,16 @@ def sin_taylor():
 
 sin_x = sin_taylor()
 
-x_val = np.linspace(-50, 50, 500)
+x_val = np.linspace(-50, 50, 500)   
 
 for i in range(1,51):
     sin_x.send(None)
     y = sin_x.send(x_val)
 
-    plt.plot(x_val, np.sin(x_val))
-    plt.plot(x_val, y)
+    plt.style.use('dark_background')
+
+    plt.plot(x_val, np.sin(x_val), color = 'cyan')
+    plt.plot(x_val, y, color = 'orange')
 
     plt.ylim(-10, 10)
     plt.axhline(0, color = 'black', linewidth = 1.0)
