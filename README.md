@@ -5,4 +5,4 @@
 
 ## Curent Status
 
-- Only features [Taylor Series](github.com/krishn14-lab/Animated-Graphs/Taylor%20Series)
+- Only features [Taylor Series](https://github.com/krishn14-lab/Animated-Graphs/tree/main/Taylor%20Series)
